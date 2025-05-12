@@ -1,0 +1,9 @@
+utils/__pycache__
+retriever/__pycache__
+__pycache__
+flask_session
+context/
+config.env
+instance/
+data/
+generated_sites/

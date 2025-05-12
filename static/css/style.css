@@ -1,0 +1,107 @@
+* {
+  margin-left: 0.1rem;
+}
+
+html, body {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
+.button {
+  display: block;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.text-field{
+  padding: 0.75rem;
+  border-radius: 1rem;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.product-link {
+  position: fixed;              
+  bottom: 20px;                
+  right: 20px;                 
+}
+
+.product-link a {
+  display: block;
+  margin: 0 auto; 
+  width: 60px;
+  height: 60px;
+  border: none;
+  border-radius: 50%;
+  font-size: xx-large;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  line-height: 60px; 
+  text-decoration: none;
+}
+
+/*Login and Signup*/
+
+.form-submit {
+  width: 100%;
+  margin: 0;
+}
+
+.form-footer {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.form-footer a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.form-container {
+  max-width: 500px;
+  padding: 2rem;
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 2% auto auto;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input {
+  width: 96%;
+
+}
+
+
+
+
